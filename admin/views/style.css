@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.bg-main {
+  background-color: rgb(54, 54, 54);
+}
+
+.warper {
+  height: 600px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.tab-user {
+  margin-left: -130px;
+  transform: translateY(15px);
+}
+
+.nav-link {
+  padding: 10px 20px;
+  color: white;
+  margin-right: 15px;
+}
+
+.nav-item .active,
+.nav-link:hover {
+  background-color: #ffff;
+  color: #a62349;
+  border-radius: 6px;
+}
+
+footer {
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+}
