@@ -1,7 +1,6 @@
 var index = 0;
 
 function dropdown() {
-  // alert('Nguyen Ngoc Uy')
   index++;
   console.log(index);
   if (index % 2 == 0) {

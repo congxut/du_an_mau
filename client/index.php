@@ -4,11 +4,11 @@ ob_start();
 include('./../model/connect.php');
 include('./../model/product.php');
 include('./../model/order.php');
-include('./../model/category.php');
 include('./../model/size.php');
+include('./../model/category.php');
 include('./../model/user.php');
-include('./../helper/baseUrl.php');
 include('./../helper/dd.php');
+include('./../helper/baseUrl.php');
 
 if(isset($_GET['dang-ky'])){
     include('./views/register.php');

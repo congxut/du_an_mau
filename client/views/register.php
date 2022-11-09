@@ -44,7 +44,7 @@
         <div class="input__bag">
           <input class="contact__input" type="text" name="kh_phone" placeholder="Số diện thoại">
         </div>
-        <button class="contact__btn ">Đăng ký</button>
+        <button class="contact__btn">Đăng ký</button>
       </form>
     </div>
   </div>
